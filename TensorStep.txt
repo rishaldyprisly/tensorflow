@@ -1,0 +1,40 @@
+
+   
+________________________________________________________________________________________________
+
+    # GPU DRIVER CHECK, INSTALLATION, DEPPENDENCIES AND REQUIREMENTS 
+	
+	nvcc -V
+	
+	nvidia-smi
+
+	sudo add-apt-repository ppa:graphics-drivers
+    
+    sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev (CUDA DEPENDENCIES)
+	
+	sudo apt-get install nvidia-418
+
+	sudo apt install nvidia-cuda-toolkit
+________________________________________________________________________________________________
+
+	# REQUIRED PYTHON 2.7 LIBS 
+
+	
+	pip install sklearn
+	pip install scipy
+	pip install opencv-python
+	pip install tensorflow
+	pip install tensorflow-gpu
+	pip install numpy==1.16.2
+
+________________________________________________________________________________________________
+
+	# REQUIRED PYTHON 2.7 LIBS 
+
+	
+	pip install sklearn
+	pip install scipy
+	pip install opencv-python
+	pip install tensorflow
+	pip install tensorflow-gpu
+	pip install numpy==1.16.2
